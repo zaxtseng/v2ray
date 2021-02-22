@@ -48,7 +48,10 @@
 在Xshell界面,输入`sudo -s`,使用root身份.
 
 ```js
+//ss脚本
 bash <(curl -s -L https://git.io/ss.sh)
+//v2ray脚本
+bash <(curl -s -L https://git.io/v2ray.sh)
 ```
 将上述命令粘贴到Xshell.回车.
 
@@ -107,6 +110,7 @@ ss uninstall 卸载 Shadowsocks
 
 系统代理选择全局,PAC模式选择更新本地PAC,更新完成后系统代理更改为PAC模式.
 ## 可用账号
-hot
-544
+hot =>v2ray
+
+544 => ss
 
