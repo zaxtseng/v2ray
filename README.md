@@ -110,7 +110,7 @@ ss uninstall 卸载 Shadowsocks
 
 系统代理选择全局,PAC模式选择更新本地PAC,更新完成后系统代理更改为PAC模式.
 ## 可用账号
-hot =>v2ray
+g =>v2ray
 
 544 => ss
 
