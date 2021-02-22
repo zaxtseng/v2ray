@@ -87,7 +87,17 @@ ss update.sh 更新 Shadowsocks 管理脚本
 ss uninstall 卸载 Shadowsocks
 ```
 ## 安全组
-回到AWS的EC界面.点击左侧安全组.选择Debian的编辑入站安全组.将之前的端口号复制进去.或者选择所有流量,全部,确定.
+回到AWS的EC界面.点击左侧安全组.
+
+选择Debian的编辑入站安全组.
+
+![7.png](https://i.loli.net/2021/02/22/SZ1PRDkw6nqAFXL.png)
+
+将之前的端口号复制进去.
+
+![8.png](https://i.loli.net/2021/02/22/ot12s7n8JD65WM9.png)
+
+或者选择所有流量,全部,确定.
 ## 客户端
 去官网下载客户端.
 
