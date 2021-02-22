@@ -7,10 +7,13 @@
 
 ## 秘钥创建
 ![1.png](https://i.loli.net/2021/01/13/lZkP3Uf9BMWKd4r.png)
+
 启用后,会提示需要先生成一个私人秘钥,选择创建新秘钥对.随便写一个名称.点击生成.保存起来.此秘钥是唯一连接当前实例的密码.
 ### 秘钥转换
 此秘钥格式为pem.需要转换格式.下载putty.安装后打开puttygen.此软件用来转换秘钥格式.
+
 ![2.png](https://i.loli.net/2021/01/13/NQcEA8h7HunlCmd.png)
+
 点击上面的conversions, import key.将下载好的pem秘钥导入.
 
 点击右下角按钮save private key.保存为ppk格式.(此格式用putty可以直接使用.)
@@ -19,18 +22,24 @@
 
 ## 创建账单警报
 此时,再看实例已经创建完成.
+
 ![3.png](https://i.loli.net/2021/01/13/B87LmzVZy5wgMe3.png)
+
 点击创建账单警报,防止免费流量用完扣费.
+
 ![4.png](https://i.loli.net/2021/01/13/CZIq9V41BTmsWna.png)
+
 两处打钩,填入报警的邮箱.点击保存.
 
 ## 连接Xshell
 回到EC界面.点击正在运行的实例.复制公网IP.
 
 下载Xshell.新建连接,用户名admin(或者root),主机填入刚刚复制的IP.
+
 ![5.png](https://i.loli.net/2021/01/13/Ry43Y9gM8aeXSBd.png)
 
 ![6.png](https://i.loli.net/2021/01/13/JzPp1l4c3iVrkmE.png)
+
 点击左侧用户身份验证.方法改为public Key.用户秘钥点击浏览,点击导入,将之前生成的最后一个秘钥放入,选中,点击确定.
 
 最后连接.
@@ -42,7 +51,9 @@
 bash <(curl -s -L https://git.io/ss.sh)
 ```
 将上述命令粘贴到Xshell.回车.
+
 ![7.png](https://i.loli.net/2021/01/13/uFXItenh7WjcU8s.png)
+
 输入1,回车.安装.
 
 弹出端口号,记住,后面安全组要用到.继续疯狂回车.
